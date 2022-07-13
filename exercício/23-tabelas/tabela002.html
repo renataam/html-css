@@ -21,6 +21,7 @@
             margin: auto;
             border: 1px solid black;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -30,8 +31,13 @@
 
         thead{
             background-color: pink;
-            color: rgb(234, 94, 118);
-            
+            color: #ea5e76;            
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: pink;
         }
 
         tbody > tr:nth-child(2n){
