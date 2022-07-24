@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+
+        }
+
+        table{
+            height: 400px;
+            width: 600px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            
+        }
+
+        caption{
+            padding: 10px;
+            font-size: 2.5em;
+            color: rgb(138, 138, 115);
+        }
+
+        tr, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela Mesclada</caption>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td colspan="4" style="background-color:rgb(168, 201, 206);">A</td>
+                <td rowspan="4" style="background-color:rgb(243, 173, 160);">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" style="background-color:rgb(176, 223, 176);">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="background-color:rgb(245, 245, 167);">M</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
