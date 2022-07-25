@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudos de iframe</title>
+    <style>
+        iframe{
+            width: 300px;
+            height: 100px;
+            border: 1px dashed red;
+        }
+        /*a configuração do tamanho do iframe por CSS é prevalente*/
+    </style>
+</head>
+<body>
+    <h1>Testando uso de iframe</h1>
+    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0" scrolling="no" > nesse espaço eu deixo um recado para pessoa ler que só vai aparecer se ela acessar de um navegador que nao é compatível com iframe. Eu tb posso deixar um link que é mais inteligente, vou fazer aqui em baixo</iframe> para aprender a programar.</p>
+
+    <p>Repositório do professor <iframe src="https://gustavoguanabara.github.io/" frameborder="1" height="400" width="500"> posso deixar um link nesse espaço <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"></a></iframe></p> <!--no frameborder="0" não terá borda, se colocar qq valor, seja 1 ou 500, vai aparecer uma bordinha cinza. Para configurar melhor usar o CSS border igual está ai em cima-->
+
+    <p>Nem todo site funciona dentro do iframe, por exemplo o google, veja:  <iframe src="https://www.google.com.br/" frameborder="0"></iframe></p>
+
+    <!--O tamanho padrão de um iframe é 300x150px-->
+    </body>
+</html>
