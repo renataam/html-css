@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 100vh;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident error deserunt quidem odit quis magni! Ad, velit doloremque asperiores nisi laudantium praesentium neque! Ratione et maxime temporibus repellendus tempora.</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target= "tela1">primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="tela1">segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="tela1">terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veniam perferendis magni quia, nulla laborum similique eveniet laudantium deleniti officia ducimus in nam velit dicta eligendi quaerat totam dolor corporis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit delectus ullam dolorem, eaque accusantium nihil sunt repudiandae deleniti necessitatibus quidem optio porro illum tempore suscipit saepe dolorum! Quod, nihil illum.</p>
+
+    <iframe name="tela1" srcdoc="<h1>Escolha uma das opções acima</h1> <img src='imagens/paisagem-g.png'>" frameborder="1"> seu navegador nao é compatível</iframe>
+
+    <!--repare que <img src='imagens/paisagem-g.png'> tem aspas simples!! E não tem aquele alt="" no final. Ou seja, não é a tag img padrão --> 
+    
+<img src="" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, iusto atque? Atque optio, magni, ipsa sequi molestias nihil nam impedit maxime perspiciatis obcaecati dolorum reprehenderit similique quisquam quod hic exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt voluptatibus magni iusto quidem voluptatem eaque. Corrupti iste in eos dolor, delectus, recusandae voluptatibus itaque possimus a ipsa nemo minus?</p>
+    
+</body>
+</html>
